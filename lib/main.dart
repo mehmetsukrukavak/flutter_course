@@ -8,17 +8,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        brightness: Brightness.light,
-         primarySwatch: Colors.blue,
-         accentColor: Colors.amber 
-      ),
-      debugShowCheckedModeBanner:false,
+          brightness: Brightness.light,
+          primarySwatch: Colors.blue,
+          accentColor: Colors.amber),
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text('Easy List'),
-          
         ),
-        body: ProductManager(startingProduct: 'Food Tester'),
+        body: ProductManager(),
       ),
     );
   }
