@@ -16,7 +16,7 @@ class Products extends StatelessWidget {
     );
   }
 
-  Widget _buildPRoductList() {
+  Widget _buildProductList() {
     Widget productCard;
     if (products.length > 0) {
       productCard = ListView.builder(
@@ -33,6 +33,6 @@ class Products extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _buildPRoductList();
+    return _buildProductList();
   }
 }
