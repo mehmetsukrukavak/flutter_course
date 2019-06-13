@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_course/pages/home.dart';
+import 'package:flutter_course/pages/auth.dart';
 
 main() => runApp(MyApp());
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           accentColor: Colors.amber),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: AuthPage(),
     );
   }
 }
